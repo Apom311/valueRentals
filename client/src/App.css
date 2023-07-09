@@ -36,3 +36,94 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: skyblue;
+}
+
+header {
+  height: 100px;
+  background-color: blue;
+}
+
+h1 {
+  color: gold;
+  font-size: 46px;
+  display: flex;
+  justify-content: center;
+  margin-block-start: 0px;
+  margin-block-end: -16px;
+}
+
+h1 span {
+  /*color: red;*/
+  font-size: 68px;
+  display: contents;
+}
+
+h2 {
+  color: gold;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  font-family: fantasy;
+  text-shadow: 3px 0 darkblue, 0 -2px darkblue, -4px 0 darkblue, 0 3px darkblue;
+}
+
+#line1 {
+  height: 1px;
+  background-color: blue;
+  width: 8px;
+  border-color: blue;
+  position: absolute;
+  left: 0;
+  right: 57px;
+  top: 13px;
+}
+
+#line2 {
+  height: 1px;
+  background-color: blue;
+  width: 93px;
+  border-color: blue;
+  position: absolute;
+  left: 0;
+  right: -26px;
+  top: 23px;
+}
+
+#line3 {
+  height: 1px;
+  background-color: blue;
+  width: 93px;
+  border-color: blue;
+  position: absolute;
+  left: 0;
+  right: -26px;
+  top: 32px;
+}
+
+#line4 {
+  height: 1px;
+  background-color: blue;
+  width: 93px;
+  border-color: blue;
+  position: absolute;
+  left: 0;
+  right: -26px;
+  top: 45px;
+}
+
+#line5 {
+  color: red;
+  height: 2px;
+  background-color: gold;
+  width: 80%;
+  border-color: gold;
+}
