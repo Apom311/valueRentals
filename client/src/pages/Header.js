@@ -11,7 +11,19 @@ function Header() {
       <hr id="line2"></hr>
       <hr id="line3"></hr>
       <hr id="line4"></hr>
-      <hr id="line5"></hr>
+      <div class="businessDays">
+        <ul class="dayOfWeek">
+          <li>Monday-Friday:</li>
+          <li>Saturday:</li>
+          <li>Sunday:</li>
+        </ul>
+        <ul class="businessHours">
+          <li>10am - 6pm</li>
+          <li>9am - 3pm</li>
+          <li>Closed</li>
+        </ul>
+        <hr id="line5"></hr>
+      </div>
     </header>
   );
 }
