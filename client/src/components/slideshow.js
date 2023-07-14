@@ -1,8 +1,8 @@
 // import React from "react";
 // import "bulma/css/bulma.min.css";
 // import { Box, Block, Image } from "react-bulma-components";
-// import picture from "../assets/valueChristmas.jpg";
-// import snapLogo from "../assets/snapLogo.png";
+// import picture from "../../public/valueChristmas.jpg";
+// import snapLogo from "../../public/snapLogo.png";
 
 // function Slideshow() {
 //   return (
