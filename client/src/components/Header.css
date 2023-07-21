@@ -1,0 +1,22 @@
+:root {
+    --primary:  #0034D5;
+      --secondary: #F2B603;
+  }
+
+  .businessDays {
+    background-color: var(--secondary);
+  }
+
+  .dayOfWeek {
+    color: var(--primary);
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+
+  @media screen and (max-width: 960px) {
+    .dayOfWeek {
+        position: static;
+    }
+  }

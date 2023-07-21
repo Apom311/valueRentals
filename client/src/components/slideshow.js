@@ -33,7 +33,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const CarouselPage = () => {
   return ( 
     <Carousel>
-      <div class='container'>
+      <div className='container'>
         <div>
           <img src="https://placehold.co/100x100" alt='placeholder '/>
           <p className="legend">Legend 1</p>
